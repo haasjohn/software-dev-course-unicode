@@ -83,6 +83,8 @@ Assign the result to a variable named swappedString.
 
 */
 
+// This is a test
+
 //Starter Code
 // Task 1
 let inputString1 = "Code";
