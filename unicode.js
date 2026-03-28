@@ -86,11 +86,12 @@ Assign the result to a variable named swappedString.
 //Starter Code
 // Task 1
 let inputString1 = "Code";
-let firstCodePoint = 0; // Your code here
-let thirdCodePoint = 2; // Your code here
+let firstCodePoint = String.charCodeAt(0); // Your code here
+let thirdCodePoint = String.charCodeAt(2); // Your code here
 
 // Task 2
-let wordFromCodePoints; // Your code here
+//let wordFromCodePoints; // Your code here    74, 97, 118, 97, 83, 99, 114, 105, 112, and 116.
+let wordFromCodePoints = String.fromCharCode(74, 97, 118, 97, 83, 99, 114, 105, 112, 116);
 
 // Task 3
 let inputString2 = "Launch";
