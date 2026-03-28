@@ -96,17 +96,13 @@ let wordFromCodePoints = String.fromCharCode(74, 97, 118, 97, 83, 99, 114, 105, 
 
 // Task 3
 let inputString2 = "Launch";
-//let swappedString; // Your code here
-////////////////////
-let firstCode = inputString2.charCodeAt(0); // 'L'
-let lastCode = inputString2.charCodeAt(inputString2.length - 1); // 'h'
-
-// Build the new string with swapped characters
+let firstCode = inputString2.charCodeAt(0);
+let lastCode = inputString2.charCodeAt(inputString2.length - 1); 
 
 let swappedString =
-  String.fromCharCode(lastCode) + // 'h'
-  inputString2.slice(1, inputString2.length - 1) +  // 'aunc'
-  String.fromCharCode(firstCode); // 'L'
+  String.fromCharCode(lastCode) + 
+  inputString2.slice(1, inputString2.length - 1) +  
+  String.fromCharCode(firstCode); 
 ////////////////////
 
 // Log all results
