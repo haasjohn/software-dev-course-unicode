@@ -63,8 +63,8 @@ between characters and their Unicode code points.
 Write JavaScript code to complete each task,
 ensuring you assign your results to the specified variables.
 Log all results to the console.
-
-Tasks:
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Tasks: 
 Task 1: Extract Code Points from Characters
 Take the string "Code".
 Use charCodeAt to extract the Unicode code points of the first and third characters.
@@ -83,13 +83,11 @@ Assign the result to a variable named swappedString.
 
 */
 
-// This is a test
-
 //Starter Code
 // Task 1
 let inputString1 = "Code";
-let firstCodePoint; // Your code here
-let thirdCodePoint; // Your code here
+let firstCodePoint = 0; // Your code here
+let thirdCodePoint = 2; // Your code here
 
 // Task 2
 let wordFromCodePoints; // Your code here
